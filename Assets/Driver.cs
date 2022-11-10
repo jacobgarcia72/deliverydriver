@@ -5,8 +5,8 @@ using UnityEngine;
 public class Driver : MonoBehaviour
 {
 
-    [SerializeField] float turnSpeed = 0.5f;
-    [SerializeField] float driveSpeed = 0.01f;
+    int turnSpeed = 10;
+    int driveSpeed = 15;
 
     // Start is called before the first frame update
     void Start()
@@ -16,8 +16,8 @@ public class Driver : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float steerAmount = -Input.GetAxis("Horizontal") * turnSpeed;
-        float moveAmount = Input.GetAxis("Vertical") * driveSpeed;
+        float moveAmount = Input.GetAxis("Vertical") * driveSpeed * Time.deltaTime;
+        float steerAmount = -Input.GetAxis("Horizontal") * turnSpeed * moveAmount;
         transform.Rotate(0, 0, steerAmount);
         transform.Translate(0, moveAmount, 0);
 
