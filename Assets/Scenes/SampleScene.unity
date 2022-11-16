@@ -7377,8 +7377,8 @@ GameObject:
   - component: {fileID: 1057755081}
   - component: {fileID: 1057755080}
   m_Layer: 0
-  m_Name: Square
-  m_TagString: Untagged
+  m_Name: Package
+  m_TagString: Package
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7449,7 +7449,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0, b: 0.8339343, a: 1}
   m_FlipX: 0
@@ -7469,8 +7469,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1057755079}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.74, y: 2.44, z: 0}
-  m_LocalScale: {x: 1, y: 3.8045, z: 1}
+  m_LocalPosition: {x: 2.7749, y: 3.7679, z: 0}
+  m_LocalScale: {x: 1.0699, y: 1.1485785, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -12347,7 +12347,6 @@ GameObject:
   - component: {fileID: 1906048530}
   - component: {fileID: 1906048533}
   - component: {fileID: 1906048534}
-  - component: {fileID: 1906048535}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -12481,18 +12480,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5492644, y: 3.2435415}
   m_EdgeRadius: 0
---- !u!114 &1906048535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1906048529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 569476aa0fbce433cb4278e151b6daca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1907884761
 GameObject:
   m_ObjectHideFlags: 0
